@@ -1,0 +1,128 @@
+.payment-option {
+  text-align: left;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 500px;
+  .box {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    gap: 1rem;
+    padding: 1rem;
+    position: relative;
+    .input {
+      width: 4rem;
+      input {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 5%;
+        background-color: #eee;
+        border-radius: 50%;
+        width: 1.2rem;
+        &:checked {
+          background-color: red;
+        }
+      }
+    }
+  }
+  .credit-card {
+    padding: 1rem;
+    margin: 1rem 0px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+
+    .heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      text-align: left;
+      position: relative;
+      .input {
+        width: 4rem;
+        input {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 2%;
+          background-color: #eee;
+          border-radius: 50%;
+          width: 1.2rem;
+        }
+        &:checked {
+          background-color: red;
+        }
+      }
+      div:nth-child(2) {
+        text-align: left;
+        justify-items: left;
+      }
+      div {
+        span {
+          text-align: left;
+        }
+        h3 {
+          margin: 10px 0px;
+          text-align: left;
+        }
+      }
+    }
+    .body {
+      .card {
+        display: flex;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        background-color: #f7f7f7;
+        border-radius: 0.5rem;
+        justify-content: space-between;
+        padding: 0.5rem;
+        input {
+          border: none;
+          flex-basis: 85%;
+          outline: none;
+          background: none;
+        }
+      }
+    }
+    .cardholder-details {
+      margin: 1rem 0px;
+      display: flex;
+      width: 98%;
+      justify-content: space-between;
+      align-items: center;
+      .cardholder-detail:first-child {
+        flex-basis: 45%;
+      }
+      .cardholder-detail {
+        flex-basis: 20%;
+        h3,
+        p {
+          margin: 0.5rem 0px;
+        }
+        input {
+          width: 90%;
+          padding: 0.5rem;
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          background-color: #f7f7f7;
+          border-radius: 7px;
+        }
+      }
+    }
+  }
+  .btn {
+    margin: 1.5rem 0px;
+    button {
+      width: 100%;
+      background-color: #f05050;
+      border: none;
+      color: white;
+      padding: 1rem;
+      border-radius: 0.5rem;
+    }
+  }
+}
