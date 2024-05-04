@@ -1,0 +1,14 @@
+.payment {
+  text-align: center;
+
+  h1 {
+    font: bold;
+    font-size: 2rem;
+    margin: 2rem;
+    padding: 2rem;
+  }
+  .payment-content {
+    display: flex;
+    justify-content: space-around;
+  }
+}

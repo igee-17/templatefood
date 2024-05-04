@@ -1,0 +1,35 @@
+.order-cancelled {
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  border: 1px solid red;
+  border-radius: 0.5rem;
+  margin: auto;
+  margin-top: 10%;
+  padding: 2rem 1rem;
+  color: #1a1a1a;
+  .image {
+    text-align: center;
+    margin: 2rem 0px;
+  }
+  .text {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .btn {
+    width: 100%;
+    text-align: center;
+    margin: 1.5rem 0px;
+    font-size: 1rem;
+    .red {
+      background-color: #f05050;
+      border: none;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 0.5rem;
+      margin: 0px 1rem;
+    }
+  }
+}

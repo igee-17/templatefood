@@ -1,0 +1,83 @@
+.order-details {
+  width: 100%;
+
+  margin: 1rem;
+
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  text-align: left;
+  padding: 1rem 2rem;
+  .heading {
+    h3 {
+      margin: 1rem 0px;
+      padding: 1rem 0px;
+      font-size: 1.5rem;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.26px;
+      color: rgba(0, 0, 0, 0.8);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+  }
+  .details {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 1rem 0px;
+    div {
+      font-size: 1.2rem;
+      h3 {
+        color: rgba(0, 0, 0, 0.7);
+      }
+    }
+  }
+  .table {
+    table {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      margin: 2rem 0px;
+      font-size: 1.3rem;
+
+      td {
+        border: none;
+      }
+      th {
+        border: none;
+      }
+      .col {
+        width: fit-content;
+        display: flex;
+        gap: 1rem;
+        justify-content: space-between;
+        h3 {
+          margin: 1rem 0px;
+        }
+        p {
+          margin: 1rem 0px;
+          font-size: 16px;
+        }
+      }
+    }
+    .table-footer {
+      padding: 1rem 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .total {
+        display: flex;
+        justify-content: flex-end;
+        gap: 2rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+      .btn {
+        button {
+          padding: 1rem 2rem;
+          margin: 0px 1rem;
+          border-radius: 0.5rem;
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          background: none;
+        }
+      }
+    }
+  }
+}

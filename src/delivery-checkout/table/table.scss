@@ -1,0 +1,37 @@
+table {
+  width: 100%;
+
+  th,
+  td {
+    padding: 1rem;
+    border-bottom: 1px solid rgb(224, 221, 221);
+  }
+  .col-1 {
+    display: flex;
+    margin: auto;
+    justify-content: flex-start;
+    max-width: fit-content;
+    text-align: left;
+  }
+
+  .col-2 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgb(189, 181, 181);
+    border-radius: 5px;
+    width: fit-content;
+    button {
+      background: none;
+      border: none;
+    }
+  }
+  .col-3,
+  .col-4 {
+    p {
+      font-weight: bold;
+    }
+  }
+}
