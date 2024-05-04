@@ -1,0 +1,48 @@
+.order-progress {
+  width: 100%;
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  text-align: left;
+  padding: 1rem 2rem;
+  .progress {
+    text-align: center;
+    p {
+      color: rgba(0, 0, 0, 0.8);
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.24px;
+    }
+  }
+
+  .horizontal-line-with-circle {
+    position: relative;
+    background-color: red;
+    width: 200px;
+    height: 50px;
+  }
+
+  .horizontal-line-with-circle::before,
+  .horizontal-line-with-circle::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: black;
+
+    .horizontal-line-with-circle::before {
+      width: 100px;
+      height: 1px;
+      left: 0;
+    }
+
+    .horizontal-line-with-circle::after {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      right: 0;
+    }
+  }
+}

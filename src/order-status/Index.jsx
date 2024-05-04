@@ -2,6 +2,7 @@ import React from 'react'
 import './order-status.scss'
 import check from '../images/check_red.svg'
 import OrderDetails from './order-details/OrderDetails'
+import OrderProgress from './order-progress/OrderProgress'
 const Index = () => {
   return (
     <div className="order-status">
@@ -12,6 +13,7 @@ const Index = () => {
         <h2>Order Successful!</h2>
         <p>Thank you for your purchase</p>
       </div>
+      <OrderProgress />
       <OrderDetails />
     </div>
   )

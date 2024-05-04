@@ -5,7 +5,7 @@ import boneless from '../../images/boneless_banquet.svg'
 const OrderDetails = () => {
   return (
     <div className="order-details">
-      <div>
+      <div className="heading">
         <h3>Order Details</h3>
       </div>
       <div className="details">
@@ -38,15 +38,13 @@ const OrderDetails = () => {
           </thead>
           <tbody>
             <tr>
-              <td>
-                <div className="col-1">
-                  <div>
-                    <img src={boneless} alt="boneless" />
-                  </div>
-                  <div>
-                    <h3>Boneless Banquet</h3>
-                    <p>KFC</p>
-                  </div>
+              <td className="col">
+                <div>
+                  <img src={boneless} alt="boneless" />
+                </div>
+                <div>
+                  <h3>Boneless Banquet</h3>
+                  <p>KFC</p>
                 </div>
               </td>
               <td>
@@ -60,15 +58,13 @@ const OrderDetails = () => {
               </td>
             </tr>
             <tr>
-              <td>
-                <div className="col-1">
-                  <div>
-                    <img src={boneless} alt="boneless" />
-                  </div>
-                  <div>
-                    <h3>Boneless Banquet</h3>
-                    <p>KFC</p>
-                  </div>
+              <td className="col">
+                <div>
+                  <img src={boneless} alt="boneless" />
+                </div>
+                <div>
+                  <h3>Boneless Banquet</h3>
+                  <p>KFC</p>
                 </div>
               </td>
               <td>
