@@ -1,0 +1,46 @@
+.thanks {
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  border: 1px solid red;
+  border-radius: 0.5rem;
+  margin: auto;
+  margin-top: 10%;
+  padding: 2rem 1rem;
+  color: #1a1a1a;
+  .image {
+    text-align: center;
+    margin: 2rem 0px;
+  }
+  .text {
+    text-align: center;
+    font-size: 1.5rem;
+    span {
+      color: #f05050;
+    }
+    h4 {
+      margin: 0.2rem 0px;
+    }
+    p {
+      font-size: 1rem;
+      color: rgba(0, 0, 0, 0.4);
+    }
+  }
+  .btn {
+    width: 100%;
+    text-align: center;
+    margin: 1.5rem 0px;
+    font-size: 1rem;
+    .red {
+      background-color: #f05050;
+      border: none;
+      color: white;
+    }
+    button {
+      margin: 0px 1rem;
+      padding: 1rem 2rem;
+      border-radius: 0.5rem;
+      border: 1px solid #1a1a1a;
+    }
+  }
+}
