@@ -5,6 +5,7 @@
   border-radius: 0.5rem;
   text-align: left;
   padding: 1rem 2rem;
+  font-size: 1rem;
   .progress {
     text-align: center;
     p {
@@ -18,31 +19,59 @@
   }
 
   .horizontal-line-with-circle {
-    position: relative;
-    background-color: red;
-    width: 200px;
-    height: 50px;
-  }
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 
-  .horizontal-line-with-circle::before,
-  .horizontal-line-with-circle::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: black;
-
-    .horizontal-line-with-circle::before {
-      width: 100px;
-      height: 1px;
-      left: 0;
+    #active {
+      background-color: #f05050;
+    }
+    .check-container {
+      background-color: #e0e0e0;
+      width: fit-content;
+      padding: 1rem;
+      border-radius: 50%;
+      position: relative;
+      img {
+        width: 50px;
+      }
     }
 
-    .horizontal-line-with-circle::after {
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      right: 0;
+    .im {
+      background-color: #e0e0e0;
+      position: absolute;
+      top: 50%;
+      bottom: 0;
+      left: 95%;
+      width: 60px;
+      height: 0%;
+      padding: 4px;
+      border-radius: 0%;
+    }
+    .em {
+      background-color: #e0e0e0;
+      position: absolute;
+      top: 50%;
+      bottom: 0;
+      right: 85%;
+      width: 60px;
+      height: 0%;
+      padding: 4px;
+      border-radius: 0%;
+    }
+    .activate {
+      background-color: #f05050;
+    }
+  }
+  .estimated-time {
+    color: #1a1a1a;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    span {
+      color: black;
     }
   }
 }
