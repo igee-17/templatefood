@@ -11,13 +11,13 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Home />} />
         <Route path="delivery" element={<Delivery />} />
         <Route path="payment" element={<Payment />} />
         <Route path="thank" element={<Thanks />} />
         <Route path="order-status" element={<Status />} />
         <Route path="cancel" element={<Cancel />} />
-        <Route path="order-cancel" element={<Cancelled />} />
+        <Route path="order-cancel" element={<Cancelled />} /> */}
         <Route path="HIFI" element={<HIFI />} />
       </Routes>
     </div>
