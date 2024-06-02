@@ -17,14 +17,12 @@ export default () => {
       </thead>
       <tbody>
         <tr>
-          <td>
-            <div className="col-1">
-              <img src={Sharwarma} alt="sharwarma" />
-              <div>
-                <h3>Boston Chicken Shawarma wrap</h3>
-                <p>Shawarma spot</p>
-                <img src={DeleteIcon} />
-              </div>
+          <td className="col-1">
+            <img src={Sharwarma} alt="sharwarma" />
+            <div>
+              <h3>Boston Chicken Shawarma wrap</h3>
+              <p>Shawarma spot</p>
+              <img src={DeleteIcon} />
             </div>
           </td>
           <td>

@@ -5,7 +5,7 @@ import mastercard from '../../images/logos_mastercard.svg'
 import cardlinear from '../../images/solar_card-linear.svg'
 const PaymentOption = () => {
   return (
-    <div className="payment-option">
+    <main className="payment-option">
       <h3>Select payment option</h3>
       <p>All transactions are secure and encrypted</p>
       <div className="box">
@@ -53,7 +53,7 @@ const PaymentOption = () => {
       <div className="btn">
         <button>Confirm Payment</button>
       </div>
-    </div>
+    </main>
   )
 }
 

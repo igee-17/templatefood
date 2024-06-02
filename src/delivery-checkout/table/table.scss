@@ -7,13 +7,11 @@ table {
     border-bottom: 1px solid rgb(224, 221, 221);
   }
   .col-1 {
+    width: fit-content;
     display: flex;
-    margin: auto;
-    justify-content: flex-start;
-    max-width: fit-content;
-    text-align: left;
+    gap: 1rem;
+    justify-content: space-between;
   }
-
   .col-2 {
     margin: auto;
     display: flex;
